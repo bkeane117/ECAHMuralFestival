@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "muralName": "nativePicture",
+        "address": "123 Fake St",
+        "audioFile": "exampleFile.mp3",
+        "muralPicture": "123FakeSt",
+        "artists": [
+            {
+                "name": "AJ Abrams",
+                "artistBio": "I am a little artist that works in the city"
+            },
+            {
+                "name": "Zak Zebra",
+                "artistBio": "I am also an artist, but a different artist"
+            }
+        ],
+        "description": "This Mural is significant to natives for some reason"
+    },
+    {
+        "id": 2,
+        "muralName": "nativePicture",
+        "address": "123 Fake St",
+        "audioFile": "exampleFile.mp3",
+        "muralPicture": "456FakeSt",
+        "artists": [
+            {
+                "name": "AJ Abrams",
+                "artistBio": "I am a little artist that works in the city"
+            },
+            {
+                "name": "Zak Zebra",
+                "artistBio": "I am also an artist, but a different artist"
+            }
+        ],
+        "description": "This Mural is significant to natives for some reason"
+    },
+    {
+        "id": 3,
+        "muralName": "nativePicture",
+        "address": "123 Fake St",
+        "audioFile": "exampleFile.mp3",
+        "muralPicture": "123FakeSt",
+        "artists": [
+            {
+                "name": "AJ Abrams",
+                "artistBio": "I am a little artist that works in the city"
+            },
+            {
+                "name": "Zak Zebra",
+                "artistBio": "I am also an artist, but a different artist"
+            }
+        ],
+        "description": "This Mural is significant to natives for some reason"
+    }
+]

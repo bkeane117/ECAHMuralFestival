@@ -13,6 +13,18 @@
 		88F209832657794E0052D513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F209822657794E0052D513 /* Assets.xcassets */; };
 		88F209862657794E0052D513 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F209852657794E0052D513 /* Preview Assets.xcassets */; };
 		88F209892657794E0052D513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F209872657794E0052D513 /* LaunchScreen.storyboard */; };
+		88F20991265787AE0052D513 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F20990265787AE0052D513 /* HomePageView.swift */; };
+		88F20993265843CF0052D513 /* MuralMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F20992265843CF0052D513 /* MuralMapView.swift */; };
+		88F209952658455E0052D513 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F209942658455E0052D513 /* MapView.swift */; };
+		88F2099726585A180052D513 /* MuralListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2099626585A180052D513 /* MuralListView.swift */; };
+		88F2099926585A2F0052D513 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2099826585A2F0052D513 /* ArtistView.swift */; };
+		88F2099B26585A440052D513 /* DetailMuralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2099A26585A440052D513 /* DetailMuralView.swift */; };
+		88F2099D26585AE30052D513 /* ECAHWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2099C26585AE30052D513 /* ECAHWebView.swift */; };
+		88F2099F26585B4D0052D513 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2099E26585B4D0052D513 /* SettingsView.swift */; };
+		88F209A326586F0C0052D513 /* Mural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F209A226586F0C0052D513 /* Mural.swift */; };
+		88F209A7265871E30052D513 /* Murals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F209A6265871E30052D513 /* Murals.swift */; };
+		88F209A92658C16C0052D513 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F209A82658C16C0052D513 /* Bundle-Decodable.swift */; };
+		88F209AB2658C9180052D513 /* Mural.json in Resources */ = {isa = PBXBuildFile; fileRef = 88F209AA2658C9180052D513 /* Mural.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		88F209852657794E0052D513 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88F209882657794E0052D513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F2098A2657794E0052D513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F20990265787AE0052D513 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		88F20992265843CF0052D513 /* MuralMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuralMapView.swift; sourceTree = "<group>"; };
+		88F209942658455E0052D513 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		88F2099626585A180052D513 /* MuralListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuralListView.swift; sourceTree = "<group>"; };
+		88F2099826585A2F0052D513 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
+		88F2099A26585A440052D513 /* DetailMuralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMuralView.swift; sourceTree = "<group>"; };
+		88F2099C26585AE30052D513 /* ECAHWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECAHWebView.swift; sourceTree = "<group>"; };
+		88F2099E26585B4D0052D513 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		88F209A226586F0C0052D513 /* Mural.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mural.swift; sourceTree = "<group>"; };
+		88F209A6265871E30052D513 /* Murals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Murals.swift; sourceTree = "<group>"; };
+		88F209A82658C16C0052D513 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		88F209AA2658C9180052D513 /* Mural.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mural.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +83,18 @@
 				88F2097C2657794D0052D513 /* AppDelegate.swift */,
 				88F2097E2657794D0052D513 /* SceneDelegate.swift */,
 				88F209802657794D0052D513 /* ContentView.swift */,
+				88F20990265787AE0052D513 /* HomePageView.swift */,
+				88F2099E26585B4D0052D513 /* SettingsView.swift */,
+				88F2099C26585AE30052D513 /* ECAHWebView.swift */,
+				88F2099626585A180052D513 /* MuralListView.swift */,
+				88F209A226586F0C0052D513 /* Mural.swift */,
+				88F209A6265871E30052D513 /* Murals.swift */,
+				88F209A82658C16C0052D513 /* Bundle-Decodable.swift */,
+				88F209AA2658C9180052D513 /* Mural.json */,
+				88F2099826585A2F0052D513 /* ArtistView.swift */,
+				88F2099A26585A440052D513 /* DetailMuralView.swift */,
+				88F20992265843CF0052D513 /* MuralMapView.swift */,
+				88F209942658455E0052D513 /* MapView.swift */,
 				88F209822657794E0052D513 /* Assets.xcassets */,
 				88F209872657794E0052D513 /* LaunchScreen.storyboard */,
 				88F2098A2657794E0052D513 /* Info.plist */,
@@ -134,6 +170,7 @@
 			files = (
 				88F209892657794E0052D513 /* LaunchScreen.storyboard in Resources */,
 				88F209862657794E0052D513 /* Preview Assets.xcassets in Resources */,
+				88F209AB2658C9180052D513 /* Mural.json in Resources */,
 				88F209832657794E0052D513 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,9 +182,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F2099B26585A440052D513 /* DetailMuralView.swift in Sources */,
 				88F2097D2657794D0052D513 /* AppDelegate.swift in Sources */,
+				88F209A92658C16C0052D513 /* Bundle-Decodable.swift in Sources */,
+				88F209952658455E0052D513 /* MapView.swift in Sources */,
+				88F209A7265871E30052D513 /* Murals.swift in Sources */,
+				88F2099726585A180052D513 /* MuralListView.swift in Sources */,
+				88F20993265843CF0052D513 /* MuralMapView.swift in Sources */,
 				88F2097F2657794D0052D513 /* SceneDelegate.swift in Sources */,
+				88F2099926585A2F0052D513 /* ArtistView.swift in Sources */,
+				88F20991265787AE0052D513 /* HomePageView.swift in Sources */,
+				88F2099D26585AE30052D513 /* ECAHWebView.swift in Sources */,
 				88F209812657794D0052D513 /* ContentView.swift in Sources */,
+				88F2099F26585B4D0052D513 /* SettingsView.swift in Sources */,
+				88F209A326586F0C0052D513 /* Mural.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

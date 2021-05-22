@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var murals = Murals()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ZStack {
+                Color.black
+                    .ignoresSafeArea()
+                NavigationLink(destination: HomePageView(murals: murals)){
+                    Text("ECAH")
+                        .padding()
+                        .foregroundColor(.yellow)
+                        .scaledToFill()
+                        .font(.title)
+                }
+            }
+        }
     }
 }
 
