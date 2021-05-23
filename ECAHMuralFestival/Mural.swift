@@ -7,12 +7,8 @@
 
 import Foundation
 
-
+//data structure to receive our Mural JSON data 
 struct Mural: Codable, Identifiable {
-    struct Artist: Codable {
-        let name: String
-        let artistBio: String
-    }
     
     let id: Int
     let muralName: String
@@ -21,6 +17,10 @@ struct Mural: Codable, Identifiable {
     let muralPicture: String
     let artists: [Artist]
     let description: String
+    let latitude: Double
+    let longitude: Double
+    
+        
     
     /*
     static func < (lhs: Mural, rhs: Mural) -> Bool {

@@ -7,12 +7,15 @@
 
 import SwiftUI
 
+
 struct DetailMuralView: View {
+    //detail view of a specific mural
     let mural: Mural
     var body: some View {
         GeometryReader { geometry in
             ScrollView {
                 VStack {
+                    //A header style display(maybe split this into a different view)
                     ZStack(alignment: .bottomTrailing){
                         Image(self.mural.muralPicture)
                             .resizable()
@@ -35,8 +38,10 @@ struct DetailMuralView: View {
                     
                     Text("About The Artists")
                         .font(.title2)
+                    //A list of artists that worked on the mural(split into a differnt view)
                     Group {
                         ForEach(self.mural.artists, id: \.name) { artist in
+                            //This links to a detailed artist view
                             NavigationLink(destination: Text("This will link to a detailed artist view")){
                                 HStack {
                                     Image(systemName: "person.fill")
@@ -68,6 +73,7 @@ struct DetailMuralView: View {
                     Text("About the site")
                         .font(.title2)
                         .padding()
+                    
                     Text(self.mural.description)
                         .padding()
                 }
@@ -77,7 +83,7 @@ struct DetailMuralView: View {
 }
 
 struct DetailMuralView_Previews: PreviewProvider {
-    static let mural = Mural(id: 1, muralName: "muralName", address: "someAddress", audioFile: "someAudioFile", muralPicture: "123FakeSt", artists: [Mural.Artist(name: "ArtistName", artistBio: "artistBio")], description: "description")
+    static let mural = Mural(id: 1, muralName: "muralName", address: "someAddress", audioFile: "someAudioFile", muralPicture: "123FakeSt", artists: [Artist(name: "ArtistName", artistBio: "artistBio")], description: "description", latitude: 48.43037503887334, longitude: -123.4121059752619)
     static var previews: some View {
         DetailMuralView(mural: mural)
     }

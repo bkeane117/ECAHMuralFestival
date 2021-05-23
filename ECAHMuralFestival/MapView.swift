@@ -8,6 +8,7 @@
 import SwiftUI
 import MapKit
 
+// extension to add a manual MKPointAnnotation for preview
 extension MKPointAnnotation {
     static var example: MKPointAnnotation {
         let annotation = MKPointAnnotation()
@@ -24,6 +25,7 @@ struct MapView: UIViewRepresentable {
     @Binding var selectedPlace: MKPointAnnotation?
     @Binding var showingPlaceDetails: Bool
     
+    // variable array of map locations
     var annotations: [MKPointAnnotation]
     
     func makeUIView(context: Context) -> MKMapView {
@@ -32,6 +34,7 @@ struct MapView: UIViewRepresentable {
         return mapView
     }
     
+    // check to see if the number of annotations in our selected view has changed, if it has, then we update our view with the new annotations
     func updateUIView(_ view: MKMapView, context: Context) {
         if annotations.count != view.annotations.count {
             view.removeAnnotations(view.annotations)
@@ -49,7 +52,7 @@ struct MapView: UIViewRepresentable {
         init(_ parent: MapView) {
             self.parent = parent
         }
-        
+        //keep center coordinates synced
         func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
             parent.centerCoordinate = mapView.centerCoordinate
         }
@@ -71,7 +74,7 @@ struct MapView: UIViewRepresentable {
             
             return annotationView
         }
-        
+        //adds a pin to the map 
         func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
             guard let placemark = view.annotation as? MKPointAnnotation else { return }
             parent.selectedPlace = placemark

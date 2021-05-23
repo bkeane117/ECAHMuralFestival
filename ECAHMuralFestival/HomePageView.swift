@@ -8,21 +8,26 @@
 import SwiftUI
 
 struct HomePageView: View {
+    //Home page to navigate to different pages
     @ObservedObject var murals: Murals
     var body: some View {
         TabView{
-            MuralMapView()
+            //Map of mural locations
+            MuralMapView(murals: murals)
                 .tabItem {
                     Image(systemName: "map")
                 }
+            //list of murals in the festival
             MuralListView(murals: murals)
                 .tabItem {
                     Image(systemName: "list.bullet.rectangle")
                 }
+            //link to the ECAH home page
             ECAHWebView()
                 .tabItem {
                     Image(systemName: "network")
                 }
+            //page for settings etc.
             SettingsView()
                 .tabItem {
                     Image(systemName: "gearshape")

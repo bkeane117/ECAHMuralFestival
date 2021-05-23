@@ -6,14 +6,16 @@
 //
 
 import SwiftUI
-
+// Initial loading screen, as well as a display for ECAH branding
 struct ContentView: View {
+    //initialising our list of murals
     @ObservedObject var murals = Murals()
     var body: some View {
         NavigationView {
             ZStack {
                 Color.black
                     .ignoresSafeArea()
+                //Navigation to the homepage, tab view
                 NavigationLink(destination: HomePageView(murals: murals)){
                     Text("ECAH")
                         .padding()

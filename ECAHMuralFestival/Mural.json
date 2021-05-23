@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "muralName": "nativePicture",
+        "muralName": "Picture",
         "address": "123 Fake St",
         "audioFile": "exampleFile.mp3",
         "muralPicture": "123FakeSt",
@@ -15,12 +15,14 @@
                 "artistBio": "I am also an artist, but a different artist"
             }
         ],
-        "description": "This Mural is significant to natives for some reason"
+        "description": "This Mural is significant to natives for some reason",
+        "latitude": 48.43037503887334,
+        "longitude": -123.4121059752619
     },
     {
         "id": 2,
         "muralName": "nativePicture",
-        "address": "123 Fake St",
+        "address": "456 Fake St",
         "audioFile": "exampleFile.mp3",
         "muralPicture": "456FakeSt",
         "artists": [
@@ -33,7 +35,9 @@
                 "artistBio": "I am also an artist, but a different artist"
             }
         ],
-        "description": "This Mural is significant to natives for some reason"
+        "description": "This Mural is significant to natives for some reason",
+        "latitude": 48.43037503887334,
+        "longitude": -123.4121059752619
     },
     {
         "id": 3,
@@ -51,6 +55,8 @@
                 "artistBio": "I am also an artist, but a different artist"
             }
         ],
-        "description": "This Mural is significant to natives for some reason"
+        "description": "This Mural is significant to natives for some reason",
+        "latitude": 48.43037503887334,
+        "longitude": -123.4121059752619
     }
 ]

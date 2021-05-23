@@ -7,6 +7,7 @@
 
 import Foundation
 
+//decode our JSON data from our JSON file bundle
 extension Bundle {
     func decode(_ file: String) -> [Mural] {
         guard let url = self.url(forResource: file, withExtension: "json") else {
