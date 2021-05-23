@@ -18,26 +18,13 @@ struct MuralMapView: View {
     @State private var showingEditScreen = false
     
     //@State private var locations = [MKPointAnnotation]()
+    // #NEEDS WORK - need to find a way to navigate from here to our detailed view
 
     var body: some View {
         let locationsList = murals.loadLocations()
         MapView(centerCoordinate: $centerCoordinate, selectedPlace: $selectedPlace, showingPlaceDetails: $showingPlaceDetails, annotations: locationsList)
             .edgesIgnoringSafeArea(.all)
     }
-    /*
-    func loadLocations() -> [MKPointAnnotation]{
-        var tempLocations = [MKPointAnnotation]()
-        for mural in murals.murals {
-            let annotation = MKPointAnnotation()
-            annotation.title = mural.muralName
-            print(mural.muralName)
-            annotation.subtitle = mural.address
-            annotation.coordinate = CLLocationCoordinate2D(latitude: mural.latitude, longitude: mural.longitude)
-            tempLocations.append(annotation)
-        }
-        return tempLocations
-    }
-    */
 }
 
 struct MuralMapView_Previews: PreviewProvider {
