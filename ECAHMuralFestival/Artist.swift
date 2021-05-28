@@ -10,5 +10,6 @@ import Foundation
 // data structure to receive our Artist JSON data
 struct Artist: Codable {
     let name: String
+    let artistPicture: String
     let artistBio: String
 }

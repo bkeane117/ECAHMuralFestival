@@ -28,6 +28,7 @@ struct MapView: UIViewRepresentable {
     // variable array of map locations
     var annotations: [MKPointAnnotation]
     
+    //create our map view
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
         mapView.delegate = context.coordinator
@@ -52,11 +53,13 @@ struct MapView: UIViewRepresentable {
         init(_ parent: MapView) {
             self.parent = parent
         }
-        //keep center coordinates synced
+        
+        //keep center coordinates synced and change map visibility areaS
         func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
             parent.centerCoordinate = mapView.centerCoordinate
         }
         
+        //function to determine the behaviour of the pins/annotations
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
             let identifier = "Placemark"
             
@@ -74,6 +77,7 @@ struct MapView: UIViewRepresentable {
             
             return annotationView
         }
+        
         //tapped the accessory control button on a pin 
         func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
             guard let placemark = view.annotation as? MKPointAnnotation else { return }

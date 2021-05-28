@@ -3,15 +3,17 @@
         "id": 1,
         "muralName": "West Bay Landing",
         "address": "903 Esquimalt Road",
-        "audioFile": "exampleFile.mp3",
+        "audioFile": "file_example_MP3_5MG",
         "muralPicture": "903EsquimaltRoad",
         "artists": [
             {
-                "name": "AJ Abrams",
+                "name": "Michael Dam",
+                "artistPicture": "michael-dam",
                 "artistBio": "I am a little artist that works in the city"
             },
             {
-                "name": "Zak Zebra",
+                "name": "Prince Akachi",
+                "artistPicture": "prince-akachi",
                 "artistBio": "I am also an artist, but a different artist"
             }
         ],
@@ -23,15 +25,17 @@
         "id": 2,
         "muralName": "Salish Seaside RV Haven",
         "address": "445 Head Street",
-        "audioFile": "exampleFile.mp3",
+        "audioFile": "file_example_MP3_5MG",
         "muralPicture": "445HeadStreet",
         "artists": [
             {
-                "name": "AJ Abrams",
+                "name": "Michael Dam",
+                "artistPicture": "michael-dam",
                 "artistBio": "I am a little artist that works in the city"
             },
             {
-                "name": "Zak Zebra",
+                "name": "Prince Akachi",
+                "artistPicture": "prince-akachi",
                 "artistBio": "I am also an artist, but a different artist"
             }
         ],
@@ -43,15 +47,17 @@
         "id": 3,
         "muralName": "Esquimalt United Church",
         "address": "500 Admirals Rd",
-        "audioFile": "exampleFile.mp3",
+        "audioFile": "file_example_MP3_5MG",
         "muralPicture": "500AdmiralsRd",
         "artists": [
             {
-                "name": "AJ Abrams",
+                "name": "Michael Dam",
+                "artistPicture": "michael-dam",
                 "artistBio": "I am a little artist that works in the city"
             },
             {
-                "name": "Zak Zebra",
+                "name": "Prince Akachi",
+                "artistPicture": "prince-akachi",
                 "artistBio": "I am also an artist, but a different artist"
             }
         ],
@@ -63,15 +69,17 @@
         "id": 4,
         "muralName": "Tudor House Liquor Store",
         "address": "533 Admirals Road",
-        "audioFile": "exampleFile.mp3",
+        "audioFile": "file_example_MP3_5MG",
         "muralPicture": "533AdmiralsRoad",
         "artists": [
             {
-                "name": "AJ Abrams",
+                "name": "Michael Dam",
+                "artistPicture": "michael-dam",
                 "artistBio": "I am a little artist that works in the city"
             },
             {
-                "name": "Zak Zebra",
+                "name": "Prince Akachi",
+                "artistPicture": "prince-akachi",
                 "artistBio": "I am also an artist, but a different artist"
             }
         ],
@@ -83,15 +91,17 @@
         "id": 5,
         "muralName": "La Belle Patate",
         "address": "1215 Esquimalt Rd",
-        "audioFile": "exampleFile.mp3",
+        "audioFile": "file_example_MP3_5MG",
         "muralPicture": "1215EsquimaltRoad",
         "artists": [
             {
-                "name": "AJ Abrams",
+                "name": "Michael Dam",
+                "artistPicture": "michael-dam",
                 "artistBio": "I am a little artist that works in the city"
             },
             {
-                "name": "Zak Zebra",
+                "name": "Prince Akachi",
+                "artistPicture": "prince-akachi",
                 "artistBio": "I am also an artist, but a different artist"
             }
         ],
