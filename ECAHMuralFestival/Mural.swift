@@ -22,7 +22,7 @@ struct Mural: Codable, Identifiable {
     
         
     
-    /*
+    
     static func < (lhs: Mural, rhs: Mural) -> Bool {
         lhs.id < rhs.id
     }
@@ -30,5 +30,5 @@ struct Mural: Codable, Identifiable {
     static func == (lhs: Mural, rhs: Mural) -> Bool {
         lhs.id == rhs.id
     }
-    */
+    
 }

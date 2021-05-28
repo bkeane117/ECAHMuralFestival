@@ -12,16 +12,19 @@ struct ContentView: View {
     @ObservedObject var murals = Murals()
     var body: some View {
         NavigationView {
-            ZStack {
-                Color.black
-                    .ignoresSafeArea()
-                //Navigation to the homepage, tab view
-                NavigationLink(destination: HomePageView(murals: murals)){
-                    Text("ECAH")
-                        .padding()
-                        .foregroundColor(.yellow)
-                        .scaledToFill()
-                        .font(.title)
+            GeometryReader { geometry in
+                ZStack {
+                    Color.black
+                        .ignoresSafeArea()
+                    //Navigation to the homepage, tab view
+                    NavigationLink(destination: HomePageView(murals: murals)){
+                        Text("ECAH")
+                            .padding()
+                            .foregroundColor(.yellow)
+                            .scaledToFill()
+                            .font(.title)
+                            .frame(maxHeight: .infinity, alignment: .center)
+                    }
                 }
             }
         }

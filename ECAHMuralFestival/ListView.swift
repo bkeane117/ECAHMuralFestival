@@ -10,6 +10,7 @@ import SwiftUI
 struct ListView: View {
     let picture: String
     let name: String
+    //a custome view to list pictures and some detail text in a ForEach loop
     var body: some View {
         HStack {
             Image(picture)
