@@ -9,6 +9,7 @@ import SwiftUI
 import AVFoundation
 
 struct DetailMuralView: View {
+    //@State var isLoading: Bool
     //detail view of a specific mural
     let mural: Mural
     //@State private var audioPlayer: AVAudioPlayer!
@@ -62,19 +63,7 @@ struct DetailMuralView: View {
                 }
             }
         }
-        /*
-        .onAppear {
-            //let data = NSDataAsset(name: "sound")!
-            var filePath: String?
-            filePath = Bundle.main.path(forResource: mural.audioFile, ofType: "mp3")     // For you should be siren  and mp3
-            let fileURL = URL(fileURLWithPath: filePath!)
-            do {
-                audioPlayer = try AVAudioPlayer(contentsOf: fileURL)
-            } catch {
-                print(error.localizedDescription)
-            }
-        }
-        */
+        //.redacted(reason: .placeholder)
     }
 }
 

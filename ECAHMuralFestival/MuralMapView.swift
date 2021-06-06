@@ -17,13 +17,43 @@ struct MuralMapView: View {
     @State private var showingPlaceDetails = false
     @State private var showingEditScreen = false
     
+    var locationFetcher = LocationFetcher()
+    
     //@State private var locations = [MKPointAnnotation]()
     // #NEEDS WORK - need to find a way to navigate from here to our detailed view
 
     var body: some View {
         let locationsList = murals.loadLocations()
-        MapView(centerCoordinate: $centerCoordinate, selectedPlace: $selectedPlace, showingPlaceDetails: $showingPlaceDetails, annotations: locationsList)
-            .edgesIgnoringSafeArea(.all)
+        ZStack{
+            MapView(centerCoordinate: $centerCoordinate, selectedPlace: $selectedPlace, showingPlaceDetails: $showingPlaceDetails, annotations: locationsList)
+                .edgesIgnoringSafeArea(.all)
+    // this is some test code in ordr to test location data
+            VStack {
+                Spacer()
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        // create a new location
+                        if let location = self.locationFetcher.lastKnownLocation {
+                            print("Your location is \(location)")
+                        } else {
+                            print("Your location is unknown")
+                        }
+                    }) {
+                        Image(systemName: "plus")
+                            .padding()
+                            .background(Color.black.opacity(0.75))
+                            .foregroundColor(.white)
+                            .font(.title)
+                            .clipShape(Circle())
+                            .padding(.trailing)
+                    }
+                }
+            }
+        }
+        .onAppear() {
+            self.locationFetcher.start()
+        }
     }
 }
 

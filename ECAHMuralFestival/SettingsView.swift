@@ -8,8 +8,31 @@
 import SwiftUI
 
 struct SettingsView: View {
+    
     var body: some View {
-        Text("This will be an about us Section")
+        
+        NavigationView {
+            
+            Form {
+                
+                Section(header: Text("Display"), footer: Text("System settings will override Dark Mode and use the current device theme")) {
+                    
+                    Toggle(isOn: .constant(true), label: {
+                        Text("Dark Mode")
+                    })
+                    
+                    Toggle(isOn: .constant(true), label: {
+                        Text("Use System Settings")
+                    })
+                }
+                Section {
+                    Label("Follow us on twitter @ECAH", systemImage: "link")
+                }
+                .foregroundColor(.black)
+                .font(.system(size: 16, weight: .semibold))
+            }
+            .navigationTitle("Settings")
+        }
     }
 }
 
