@@ -9,7 +9,7 @@ import Foundation
 import MapKit
 
 //this is here for some future proofing, in case we want to store a users list of locations 
-class CodableMKPointAnnotation: MKPointAnnotation, Codable {
+class CodableMKPointAnnotation: MKPointAnnotation, Codable, Identifiable {
     enum CodingKeys: CodingKey {
         case title, subtitle, latitude, longitude
     }

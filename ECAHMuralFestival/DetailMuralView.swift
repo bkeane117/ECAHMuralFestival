@@ -63,6 +63,7 @@ struct DetailMuralView: View {
                 }
             }
         }
+        .navigationBarTitle(Text(self.mural.address), displayMode: .inline)
         //.redacted(reason: .placeholder)
     }
 }

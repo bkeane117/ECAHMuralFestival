@@ -10,7 +10,7 @@ import SwiftUI
 import MapKit
 
 // this is our observable class to store our array of murals
-class Murals: ObservableObject {
+class Murals: ObservableObject, Identifiable {
     //this insures that if we make a change in our Mural array, we save this change in our documents array, so that we can access them offline
     @Published var murals = [Mural]() {
         didSet {
@@ -77,12 +77,12 @@ class Murals: ObservableObject {
         return nil
         
     }
-    func loadLocations() -> [MKPointAnnotation]{
-        var tempLocations = [MKPointAnnotation]()
+    func loadLocations() -> [CodableMKPointAnnotation]{
+        var tempLocations = [CodableMKPointAnnotation]()
         for mural in murals {
-            let annotation = MKPointAnnotation()
+            let annotation = CodableMKPointAnnotation()
             annotation.title = mural.muralName
-            print(mural.muralName)
+            //print(mural.muralName)
             annotation.subtitle = mural.address
             annotation.coordinate = CLLocationCoordinate2D(latitude: mural.latitude, longitude: mural.longitude)
             tempLocations.append(annotation)

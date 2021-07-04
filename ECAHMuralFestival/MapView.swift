@@ -24,6 +24,7 @@ struct MapView: UIViewRepresentable {
     @Binding var centerCoordinate: CLLocationCoordinate2D
     @Binding var selectedPlace: MKPointAnnotation?
     @Binding var showingPlaceDetails: Bool
+    @Binding var currentLocation: CLLocationCoordinate2D
     
     // variable array of map locations
     var annotations: [MKPointAnnotation]
@@ -32,6 +33,9 @@ struct MapView: UIViewRepresentable {
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
         mapView.delegate = context.coordinator
+        mapView.showsUserLocation = false // default, but improves readilbility
+        //mapView.centerCoordinate = CLLocationCoordinate2D(latitude: 48.437042, longitude: -123.405634)
+        //mapView.setCenter(CLLocationCoordinate2D(latitude: 48.437042, longitude: -123.405634), animated: true)
         return mapView
     }
     
@@ -41,6 +45,8 @@ struct MapView: UIViewRepresentable {
             view.removeAnnotations(view.annotations)
             view.addAnnotations(annotations)
         }
+        view.showsUserLocation = true
+        //view.setCenter(currentLocation, animated: true)
     }
     
     func makeCoordinator() -> Coordinator {
@@ -52,11 +58,15 @@ struct MapView: UIViewRepresentable {
         
         init(_ parent: MapView) {
             self.parent = parent
+
         }
         
         //keep center coordinates synced and change map visibility areaS
         func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
-            parent.centerCoordinate = mapView.centerCoordinate
+            //parent.centerCoordinate = mapView.centerCoordinate
+            if !mapView.showsUserLocation {
+                parent.centerCoordinate = mapView.centerCoordinate
+            }
         }
         
         //function to determine the behaviour of the pins/annotations
@@ -82,7 +92,7 @@ struct MapView: UIViewRepresentable {
         func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
             guard let placemark = view.annotation as? MKPointAnnotation else { return }
             parent.selectedPlace = placemark
-            parent.showingPlaceDetails = true
+            //parent.showingPlaceDetails = true
         }
     }
 
@@ -90,6 +100,6 @@ struct MapView: UIViewRepresentable {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(centerCoordinate: .constant(MKPointAnnotation.example.coordinate), selectedPlace: .constant(MKPointAnnotation.example), showingPlaceDetails: .constant(false), annotations: [MKPointAnnotation.example])
+        MapView(centerCoordinate: .constant(MKPointAnnotation.example.coordinate), selectedPlace: .constant(MKPointAnnotation.example), showingPlaceDetails: .constant(false), currentLocation: .constant(MKPointAnnotation.example.coordinate), annotations: [MKPointAnnotation.example])
     }
 }
