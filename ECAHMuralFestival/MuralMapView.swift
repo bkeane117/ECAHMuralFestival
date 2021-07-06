@@ -23,59 +23,69 @@ struct MuralMapView: View {
     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 48.437042, longitude: -123.405634), span: MKCoordinateSpan(latitudeDelta: 0.04, longitudeDelta: 0.04))
     var locationFetcher = LocationFetcher()
     
+    @State private var tempMural = Mural(id: 1, muralName: "muralName", address: "someAddress", audioFile: "someAudioFile", muralPicture: "123FakeSt", artists: [Artist(name: "ArtistName", artistPicture: "michael-dam", artistBio: "artistBio")], description: "description", latitude: 48.43037503887334, longitude: -123.4121059752619)
+    
     @State private var tappedTitle = ""
     @State private var tappedSubtitle = ""
+    @State private var showDetail = false
     
     //@State private var locations = [MKPointAnnotation]()
     // #NEEDS WORK - need to find a way to navigate from here to our detailed view
 
     var body: some View {
         let locationsList = murals.loadLocations()
-        ZStack{
-            Map(coordinateRegion: $region, showsUserLocation: true, annotationItems: locationsList, annotationContent: { location in
-                MapAnnotation(coordinate: location.coordinate) {
-                    ZStack {
-                        //MapPinView()
-                        Button(action: {
-                            showingPlaceDetails.toggle()
-                            tappedTitle = location.title ?? ""
-                            tappedSubtitle = location.subtitle ?? ""
-                        }) {
-                        Image(systemName: "mappin")
-                            .padding()
-                            .foregroundColor(.red)
-                            .font(.title)
+        NavigationView {
+            ZStack{
+                Map(coordinateRegion: $region, showsUserLocation: true, annotationItems: locationsList, annotationContent: { location in
+                    MapAnnotation(coordinate: location.coordinate) {
+                        ZStack {
+                            //MapPinView()
+                            Button(action: {
+                                showingPlaceDetails.toggle()
+                                tappedTitle = location.title ?? ""
+                                tappedSubtitle = location.subtitle ?? ""
+                                tempMural = getMural(locationName: tappedTitle)!
+                            }) {
+                            Image(systemName: "mappin")
+                                .padding()
+                                .foregroundColor(.red)
+                                .font(.title)
+                            }
                         }
                     }
-                }
-                //MapPin(coordinate: $0.coordinate)
-            })
-            .edgesIgnoringSafeArea(.all)
-                
-        }/*{
-                MapAnnotation(coordinate: $0.coordinate) {
-                    ZStack {
-                        //MapPinView()
-                        Button(action: {
-                            showingPlaceDetails.toggle()
-                            //tappedLocation = $0.title
-                        }) {
-                        Image(systemName: "mappin")
-                            .padding()
-                            .foregroundColor(.red)
-                            .font(.title)
+                    //MapPin(coordinate: $0.coordinate)
+                })
+                .edgesIgnoringSafeArea(.all)
+                    
+            }/*{
+                    MapAnnotation(coordinate: $0.coordinate) {
+                        ZStack {
+                            //MapPinView()
+                            Button(action: {
+                                showingPlaceDetails.toggle()
+                                //tappedLocation = $0.title
+                            }) {
+                            Image(systemName: "mappin")
+                                .padding()
+                                .foregroundColor(.red)
+                                .font(.title)
 
+                            }
                         }
                     }
-                }
-                //MapPin(coordinate: $0.coordinate)
-            } */
-        .alert(isPresented: $showingPlaceDetails) {
-            Alert(title: Text(tappedTitle), message: Text(tappedSubtitle), primaryButton: .cancel(),
-                secondaryButton: .default(Text("Learn More")) {
-                    print("This will go to our detailed mural view")
-                }
-            )
+                    //MapPin(coordinate: $0.coordinate)
+                } */
+            .alert(isPresented: $showingPlaceDetails) {
+                Alert(title: Text(tappedTitle), message: Text(tappedSubtitle), primaryButton: .cancel(),
+                    secondaryButton: .default(Text("Learn More")) {
+                        showDetail.toggle()
+                    }
+                )
+            }
+            // this needs some additional work, perhaps a stripped down version of the mural detail view 
+            .sheet(isPresented: $showDetail) {
+                DetailMuralView(mural: tempMural)
+            }
         }
             /*
             MapView(centerCoordinate: $centerCoordinate, selectedPlace: $selectedPlace, showingPlaceDetails: $showingPlaceDetails, currentLocation: $currentLocation, annotations: locationsList)
@@ -114,7 +124,15 @@ struct MuralMapView: View {
         }
  */
     }
-        
+    
+    func getMural(locationName: String) -> Mural? {
+        for mural in self.murals.murals {
+            if (locationName == mural.muralName) {
+                return mural
+            }
+        }
+        return nil
+    }
 }
 
 struct MuralMapView_Previews: PreviewProvider {

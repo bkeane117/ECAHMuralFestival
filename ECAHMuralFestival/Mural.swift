@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import MapKit
 
 //data structure to receive our Mural JSON data 
-struct Mural: Codable, Identifiable {
+struct Mural: Codable, Identifiable, Comparable {
     
     let id: Int
     let muralName: String
@@ -20,9 +21,6 @@ struct Mural: Codable, Identifiable {
     let latitude: Double
     let longitude: Double
     
-        
-    
-    
     static func < (lhs: Mural, rhs: Mural) -> Bool {
         lhs.id < rhs.id
     }
@@ -30,5 +28,4 @@ struct Mural: Codable, Identifiable {
     static func == (lhs: Mural, rhs: Mural) -> Bool {
         lhs.id == rhs.id
     }
-    
 }
