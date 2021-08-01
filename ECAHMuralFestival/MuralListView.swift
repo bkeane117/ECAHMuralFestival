@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct MuralListView: View {
-    @ObservedObject var murals: Murals
-    //list of our murals in a condensed form
+struct LocationListView: View {
+    @ObservedObject var locations: Locations
+    //list of our locations in a condensed form
     var body: some View {
         NavigationView {
-            List(murals.murals){ mural in
-                //link to a more detailed mural view
-                NavigationLink(destination: DetailMuralView(mural: mural)) {
-                    //title image of the mural
+            List(locations.murals){ mural in
+                //link to a more detailed location view
+                NavigationLink(destination: DetailLocationView(mural: mural)) {
+                    //title image of the location
                     Image(mural.muralPicture)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 44, height: 44)
-                    //mural name and address
+                    //location name and address
                     VStack(alignment: .leading) {
                         Text(mural.muralName)
                             .font(.headline)
@@ -35,6 +35,6 @@ struct MuralListView: View {
 
 struct MuralListView_Previews: PreviewProvider {
     static var previews: some View {
-        MuralListView(murals: Murals())
+        MuralListView(locations: Locations())
     }
 }

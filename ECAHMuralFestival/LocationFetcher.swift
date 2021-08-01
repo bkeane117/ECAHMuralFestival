@@ -15,8 +15,7 @@ class LocationFetcher: NSObject, CLLocationManagerDelegate {
     override init() {
         super.init()
         manager.delegate = self
-    }
-    
+    }    
     func start() {
         manager.requestWhenInUseAuthorization()
         manager.startUpdatingLocation()

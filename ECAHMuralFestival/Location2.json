@@ -1,0 +1,1430 @@
+[
+ {
+   "id": 1,
+   "locationName": "West Bay",
+   "address": "901 Esquimalt Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43041311,
+   "longitude": 123.4006611,
+   "artists": [
+      {
+         "name": "Esquimalt Community Arts Hub",
+         "artistPicture": "",
+         "artistBio": "https://www.ecah.ca"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 2,
+   "locationName": "West Bay",
+   "address": "871 Dunsmuir Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43093813,
+   "longitude": -123.3950829,
+   "artists": [
+      {
+         "name": "Mario Labonte",
+         "artistPicture": "",
+         "artistBio": "https://www.facebook.com/muralsbc"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 3,
+   "locationName": "West Bay",
+   "address": "915 Dunsmuir Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42853082,
+   "longitude": -123.4001011,
+   "artists": [
+      {
+         "name": "Julie Flatt (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Mara Szyp",
+         "artistPicture": "",
+         "artistBio": "https://szyp.ca/"
+      },
+      {
+         "name": "Jordan Fritz",
+         "artistPicture": "",
+         "artistBio": "https://jfritzart.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 4,
+   "locationName": "West Bay",
+   "address": "912 Dunsmuir Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42901872,
+   "longitude": -123.4004044,
+   "artists": [
+      {
+         "name": "Danielle McCann (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Angelique Bulosan",
+         "artistPicture": "",
+         "artistBio": "https://www.angeliquebulosan.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 5,
+   "locationName": "West Bay",
+   "address": "539 West Bay Terrace",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42957902,
+   "longitude": -123.3976848,
+   "artists": [
+      {
+         "name": "Maria Hendrikx (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Jessica Stepushyn",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/jstepushyn/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 6,
+   "locationName": "West Bay",
+   "address": "485 Head Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42724972,
+   "longitude": -123.3990391,
+   "artists": [
+      {
+         "name": "Debbie Douez",
+         "artistPicture": "",
+         "artistBio": "https://www.debbiedouez.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 7,
+   "locationName": "West Bay",
+   "address": "1019 Wollaston Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42852054,
+   "longitude": -123.4051699,
+   "artists": [
+      {
+         "name": "Gillian Rowan (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Levi Rowan & Friends",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 8,
+   "locationName": "West Bay",
+   "address": "549 Lampson Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42921358,
+   "longitude": -123.4067154,
+   "artists": [
+      {
+         "name": "Johanne Hemond",
+         "artistPicture": "",
+         "artistBio": "http://solaceart.ca/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 9,
+   "locationName": "West Bay",
+   "address": "511 Lampson Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42777763,
+   "longitude": -123.4071426,
+   "artists": [
+      {
+         "name": "Maija Ksander",
+         "artistPicture": "",
+         "artistBio": "http://www.maijajayeksander.com/"
+      },
+      {
+         "name": "Sophie Sanfaçon",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/sophie_fintastic/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 10,
+   "locationName": "West Bay",
+   "address": "1044 Lyall Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42751994,
+   "longitude": -123.4067498,
+   "artists": [
+      {
+         "name": "Lori Butler (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Lee Valentine",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/artful_threads/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 11,
+   "locationName": "West Bay",
+   "address": "496 Lampson Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42722631,
+   "longitude": -123.4079979,
+   "artists": [
+      {
+         "name": "Susan Romphf",
+         "artistPicture": "",
+         "artistBio": "https://www.magbagsetc.ca/"
+      },
+      {
+         "name": "Alannah MacPhail",
+         "artistPicture": "",
+         "artistBio": "https://www.artthatmatters.ca/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 12,
+   "locationName": "West Bay",
+   "address": "490 Joffre Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42777716,
+   "longitude": -123.4089076,
+   "artists": [
+      {
+         "name": "Val Lawton",
+         "artistPicture": "",
+         "artistBio": "http://www.letterboxcom.com/Site%205/Welcome.html"
+      },
+      {
+         "name": "Carole Wennington",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Judith Whitemarsh",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Janice Graham",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Paula McGahon",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Linda Hamilton",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 13,
+   "locationName": "Saxe Point",
+   "address": "1107 Bewdley Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.4236779,
+   "longitude": -123.4098714,
+   "artists": [
+      {
+         "name": "Linda Barnes (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Linda Kirstein",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 14,
+   "locationName": "Saxe Point",
+   "address": "1126 Munro Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.4221761,
+   "longitude": -123.4108587,
+   "artists": [
+      {
+         "name": "Eileen Bancroft (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Kate Stott",
+         "artistPicture": "",
+         "artistBio": "https://www.facebook.com/ktstott"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 15,
+   "locationName": "Saxe Point",
+   "address": "1191 Munro Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42342932,
+   "longitude": -123.4151964,
+   "artists": [
+      {
+         "name": "Juan Ramirez",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/juanofthese/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 16,
+   "locationName": "Saxe Point",
+   "address": "1138 Hadfield Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42310834,
+   "longitude": -123.4116302,
+   "artists": [
+      {
+         "name": "Gail Wilson (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Glynn Morrissey",
+         "artistPicture": "",
+         "artistBio": "https://www.facebook.com/OriginalArtbyGlynnM.Morrissey"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 17,
+   "locationName": "Saxe Point",
+   "address": "1157 Bewdley Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42402419,
+   "longitude": -123.412787,
+   "artists": [
+      {
+         "name": "Nik Hill (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Jade Anais",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/leadlight.vagrant/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 18,
+   "locationName": "Saxe Point",
+   "address": "1228 Juno Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42780411,
+   "longitude": -123.4160969,
+   "artists": [
+      {
+         "name": "Margaret Horsfield (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Luca Apel",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/mizzyuriart/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 19,
+   "locationName": "Saxe Point",
+   "address": "463 Constance Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42705976,
+   "longitude": -123.4179159,
+   "artists": [
+      {
+         "name": "Avrille Gosling(Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Rose Currie",
+         "artistPicture": "",
+         "artistBio": "https://www.rosecurrie.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 20,
+   "locationName": "Saxe Point",
+   "address": "466 Constance Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42691954,
+   "longitude": -123.4184227,
+   "artists": [
+      {
+         "name": "Corinne McGregor",
+         "artistPicture": "",
+         "artistBio": "https://potterybycorinne.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 21,
+   "locationName": "Saxe Point",
+   "address": "452 Constance Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42629051,
+   "longitude": -123.4186816,
+   "artists": [
+      {
+         "name": "Kenmar Flower Farm",
+         "artistPicture": "",
+         "artistBio": "https://www.kenmarflowerfarm.com/"
+      },
+      {
+         "name": "Stephen Fortner Goldsmith",
+         "artistPicture": "",
+         "artistBio": "http://stephenfortner.com/"
+      },
+      {
+         "name": "Claire Gaulin-Brown",
+         "artistPicture": "",
+         "artistBio": "https://www.clairegaulinbrown.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 22,
+   "locationName": "Saxe Point",
+   "address": "459 Nelson Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.42687837,
+   "longitude": -123.4189317,
+   "artists": [
+      {
+         "name": "Rose Cowles",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/rosecowlesart/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 23,
+   "locationName": "Highrock Park",
+   "address": "1185 Old Esquimalt Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.4320777,
+   "longitude": -123.4088808,
+   "artists": [
+      {
+         "name": "Marie Fidoe (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Kathleen Trayner",
+         "artistPicture": "",
+         "artistBio": "http://kathleentrayner.com/"
+      },
+      {
+         "name": "Dixie MacUisdin",
+         "artistPicture": "",
+         "artistBio": "https://www.dixiemacuisdin.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 24,
+   "locationName": "Highrock Park",
+   "address": "1155 Old Esquimalt Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43237095,
+   "longitude": -123.4070079,
+   "artists": [
+      {
+         "name": "Katharine Scotton (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Jenny Adams",
+         "artistPicture": "",
+         "artistBio": "https://www.facebook.com/jadamspaintings/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 25,
+   "locationName": "Highrock Park",
+   "address": "721 Porter Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.4341165,
+   "longitude": -123.4006913,
+   "artists": [
+      {
+         "name": "Amira Maddison",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/moritaart/?hl=en"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 26,
+   "locationName": "Highrock Park",
+   "address": "858 Devonshire Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.4362282,
+   "longitude": -123.3971743,
+   "artists": [
+      {
+         "name": "Ministry of Casual Living",
+         "artistPicture": "",
+         "artistBio": "https://ministryofcasualliving.ca/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 27,
+   "locationName": "Highrock Park",
+   "address": "1235 Highrock Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43437819,
+   "longitude": -123.4123553,
+   "artists": [
+      {
+         "name": "Dominique Sigg (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Susan Underwood",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/s_underwood2019/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 28,
+   "locationName": "Highrock Park",
+   "address": "1241 Highrock Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43455159,
+   "longitude": -123.4124626,
+   "artists": [
+      {
+         "name": "Donna Humphries (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Rachel Jones",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/fridayfibres/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 29,
+   "locationName": "Highrock Park",
+   "address": "1251 Highrock Avenue",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43470627,
+   "longitude": -123.4127756,
+   "artists": [
+      {
+         "name": "Richard Wong",
+         "artistPicture": "",
+         "artistBio": "http://www.richardwongwatercolors.ca/"
+      },
+      {
+         "name": "Anne Bowen",
+         "artistPicture": "",
+         "artistBio": "https://www.annebowen.ca/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 30,
+   "locationName": "Colville Corridor & Gorge",
+   "address": "1203 Lockley Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43687871,
+   "longitude": -123.4139663,
+   "artists": [
+      {
+         "name": "Lindsay and dea Kearns (Gardeners)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "dea Kearns",
+         "artistPicture": "",
+         "artistBio": "http://deakearns.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 31,
+   "locationName": "Colville Corridor & Gorge",
+   "address": "1077 Colville Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43858243,
+   "longitude": -123.406951,
+   "artists": [
+      {
+         "name": "Meredith James (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Katherine Babcock",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/westislanddesigns/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 32,
+   "locationName": "Colville Corridor & Gorge",
+   "address": "1064 Colville Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43919731,
+   "longitude": -123.4059159,
+   "artists": [
+      {
+         "name": "Kris Andersen (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Deborah van Hattem",
+         "artistPicture": "",
+         "artistBio": "https://www.artbydebvanhattemkoff.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+},
+ {
+   "id": 33,
+   "locationName": "Colville Corridor & Gorge",
+   "address": "835 Colville Road",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.43886083,
+   "longitude": -123.3956972,
+   "artists": [
+      {
+         "name": "Esquimalt Community Garden",
+         "artistPicture": "",
+         "artistBio": "https://www.facebook.com/ESQGardens/"
+      },
+      {
+         "name": "Rowan Hynds",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/rowansiobhan.art/"
+      },
+      {
+         "name": "Robyn Jin Broekhuizen",
+         "artistPicture": "",
+         "artistBio": "https://robynjin.myportfolio.com/"
+      },
+      {
+         "name": "Linda Simrose",
+         "artistPicture": "",
+         "artistBio": "https://www.facebook.com/linda.simrose"
+      },
+      {
+         "name": "Courtney Standing",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Michelle Ginting",
+         "artistPicture": "",
+         "artistBio": "https://www.instagram.com/victoria.ginting.fine.arts/"
+      }
+   ]
+},
+ {
+   "id": 34,
+   "locationName": "Colville Corridor & Gorge",
+   "address": "1001 Arcadia Street",
+   "audioFile": "",
+   "locationPicture": "",
+   "description": "",
+   "latitude": 48.44260373,
+   "longitude": -123.3968298,
+   "artists": [
+      {
+         "name": "Rose Gauthier (Gardener)",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "Taylor Gauthier",
+         "artistPicture": "",
+         "artistBio": "https://taylorgauthier.wordpress.com/"
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      },
+      {
+         "name": "",
+         "artistPicture": "",
+         "artistBio": ""
+      }
+   ]
+}
+]

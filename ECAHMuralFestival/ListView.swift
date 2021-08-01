@@ -13,12 +13,22 @@ struct ListView: View {
     //a custome view to list pictures and some detail text in a ForEach loop
     var body: some View {
         HStack {
-            Image(picture)
-                .resizable()
-                .scaledToFill()
-                .frame(width: 83, height: 60)
-                .clipShape(Capsule())
-                .overlay(Capsule().stroke(Color.primary, lineWidth: 1))
+            if picture != "" {
+                Image(picture)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 83, height: 60)
+                    .clipShape(Capsule())
+                    .overlay(Capsule().stroke(Color.primary, lineWidth: 1))
+            } else {
+                Image(Location.dummyData[0].locationPicture)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 83, height: 60)
+                    .clipShape(Capsule())
+                    .overlay(Capsule().stroke(Color.primary, lineWidth: 1))
+                    //.redacted(reason: .placeholder)
+            }
             VStack(alignment: .leading){
                 Text(name)
                     .font(.title3)

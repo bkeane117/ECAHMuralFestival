@@ -9,7 +9,7 @@ import Foundation
 
 //decode our JSON data from our JSON file bundle
 extension Bundle {
-    func decode(_ file: String) -> [Mural] {
+    func decode(_ file: String) -> [Location] {
         guard let url = self.url(forResource: file, withExtension: "json") else {
             fatalError("Failed to locate \(file) in bundle.")
         }
@@ -20,7 +20,7 @@ extension Bundle {
 
         let decoder = JSONDecoder()
 
-        guard let loaded = try? decoder.decode([Mural].self, from: data) else {
+        guard let loaded = try? decoder.decode([Location].self, from: data) else {
             fatalError("Failed to decode \(file) from bundle.")
         }
 

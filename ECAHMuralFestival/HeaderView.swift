@@ -8,25 +8,43 @@
 import SwiftUI
 
 struct HeaderView: View {
-    //let mural: Mural
+    //let location: Mural
     let picture: String
     let title: String
     var body: some View {
 
         //VStack {
             ZStack(alignment: .bottomTrailing){
-                Image(picture)
-                    .resizable()
-                    .scaledToFit()
-                    //.frame(maxWidth: geometry.size.width)
-                Text(title)
-                    .font(.caption)
-                    .fontWeight(.black)
-                    .padding(8)
-                    .foregroundColor(.white)
-                    .background(Color.black.opacity(0.75))
-                    .clipShape(Capsule())
-                    .offset(x: -5, y: -5)
+                if picture != ""{
+                    Image(picture)
+                        .resizable()
+                        .scaledToFit()
+                        //.frame(maxWidth: geometry.size.width)
+                } else {
+                    Image(Location.dummyData[0].locationPicture)
+                        .resizable()
+                        .scaledToFit()
+                        //.frame(maxWidth: geometry.size.width)
+                }
+                if title != "" {
+                    Text(title)
+                        .font(.caption)
+                        .fontWeight(.black)
+                        .padding(8)
+                        .foregroundColor(.white)
+                        .background(Color.black.opacity(0.75))
+                        .clipShape(Capsule())
+                        .offset(x: -5, y: -5)
+                } else {
+                    Text(Location.dummyData[0].locationName)
+                        .font(.caption)
+                        .fontWeight(.black)
+                        .padding(8)
+                        .foregroundColor(.white)
+                        .background(Color.black.opacity(0.75))
+                        .clipShape(Capsule())
+                        .offset(x: -5, y: -5)
+                }
 
            // }
         }

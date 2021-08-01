@@ -6,21 +6,20 @@
 //
 
 import SwiftUI
-// Initial loading screen, as well as a display for ECAH branding
 struct ContentView: View {
     //Home page to navigate to different pages
-    @ObservedObject var murals: Murals
+    @ObservedObject var locations: Locations
     var body: some View {
         TabView{
-            //Map of mural locations
-            MuralMapView(murals: murals)
-                .tabItem {
-                    Image(systemName: "map")
-                }
-            //list of murals in the festival
-            MuralListView(murals: murals)
+            //list of locations in the festival
+            LocationListView(isLoading: false, locations: locations)
                 .tabItem {
                     Image(systemName: "list.bullet.rectangle")
+                }
+            //Map of location locations
+            LocationMapView(locations: locations)
+                .tabItem {
+                    Image(systemName: "map")
                 }
             //link to the ECAH home page
             ECAHWebView()
@@ -28,39 +27,16 @@ struct ContentView: View {
                     Image(systemName: "network")
                 }
             //page for settings etc.
-            SettingsView()
-                .tabItem {
-                    Image(systemName: "gearshape")
-                }
+//            SettingsView()
+//                .tabItem {
+//                    Image(systemName: "gearshape")
+//                }
         }
     }
-    /*
-    //initialising our list of murals
-    @ObservedObject var murals = Murals()
-    var body: some View {
-        NavigationView {
-            GeometryReader { geometry in
-                ZStack {
-                    Color.black
-                        .ignoresSafeArea()
-                    //Navigation to the homepage, tab view
-                    NavigationLink(destination: HomePageView(murals: murals)){
-                        Text("ECAH")
-                            .padding()
-                            .foregroundColor(.yellow)
-                            .scaledToFill()
-                            .font(.title)
-                            .frame(maxHeight: .infinity, alignment: .center)
-                    }
-                }
-            }
-        }
-    }
-    */
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(murals: Murals())
+        ContentView(locations: Locations())
     }
 }
